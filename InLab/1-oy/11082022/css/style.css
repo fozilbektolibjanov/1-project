@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(246, 115, 115);
+}
+.container {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+}
+/* .HERO {
+    margin: 100px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+} */
+.box1{
+    width: 250px;
+    height: 240px;
+    margin: 60px;
+    padding: 30px;
+    font-style: normal;
+    border: 1px solid rgb(110, 84, 84);
+    background-color: #ffff;
+    color: black;
+    display: inline-block;
+}
+.box1{
+    margin: 20px auto;
+    padding: 0px;
+    font-style: normal;
+    color: rgb(162, 139, 139);
+    background-color: #fff;
+    text-align: center; 
+}
+.virrtual{
+    margin: 20px auto;
+    padding: 0px;
+    font-style: normal;
+    color: rgb(243, 233, 233);
+    background-color: #fff;
+    text-align: center;
+}
+.box2{
+    width: 250px;
+    height: 260px;
+    margin: 40px;
+    padding: 10px;
+    font-style: normal;
+    border: 1px solid rgb(110, 84, 84);
+    background-color: #fff;
+    text-align: center; 
+    display: inline-block;
+}
+.Premium{
+    margin: 20px auto;
+    padding: 0px;
+    font-style: normal;
+    color: rgb(157, 139, 139);
+    background-color: #fff;
+    text-align: center;
+}
+.dig{
+    margin: 20px auto;
+    padding: 0px;
+    font-style: normal;
+    color: rgb(243, 233, 233);
+    background-color: #fff;
+    text-align: center; 
+}
+.Platin{
+    width: 250px;
+    height: 300px;
+    margin: 0px;
+    padding: 10px;
+    font-style: normal;
+    border: 1px solid rgb(110, 84, 84);
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+.Platinum{
+    margin: 20px auto;
+    padding: 0px;
+    font-style: normal;
+    color: rgb(162, 139, 139);
+    background-color: #fff;
+    text-align: center; 
+}
+.bil{
+    margin: 20px auto;
+    padding: 0px;
+    font-style: normal;
+    color: rgb(243, 233, 233);
+    background-color: #fff;
+    text-align: center;
+}
+.text {
+    margin: 0px;
+    padding: 0px;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid black;
+}

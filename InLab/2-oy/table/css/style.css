@@ -1,0 +1,47 @@
+*{box-sizing: border-box;}
+
+td {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+table {
+    margin-bottom: 100px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: aqua;
+}
+
+tbody {
+    background-color: yellow;
+}
+
+
+
+            /* JADVAL 2 */
+
+.jigarrang {
+    background-color: rgb(214, 116, 116);
+}
+.red {
+    background-color: red;
+}
+.siyohrang {
+    background-color: blueviolet;
+}
+.blue {
+    background-color: blue;
+}
+.pushti {
+    background-color: rgb(193, 200, 207);
+}
+.green {
+    background-color: rgb(85, 242, 85);
+}
+.kulrang {
+    background-color: rgb(110, 96, 96);
+}
+.sabzirang {
+    background-color: rgb(237, 106, 58);
+}

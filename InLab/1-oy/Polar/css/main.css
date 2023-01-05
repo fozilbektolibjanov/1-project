@@ -1,0 +1,120 @@
+/* **** GENERAL **** */
+* {
+   box-sizing: border-box;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+     font-family: Roboto,serif,sans-serif; 
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* **** **** HEADER **** ****  */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+}
+.nav-item-link:hover {
+    color: #D23166;
+    opacity: 1;
+}
+.header-link {
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    color:#fff;
+    padding: 14px 50px;
+    background: #D23166;
+    border-radius: 5px;
+}
+/* **** **** HERO **** ****  */
+
+  /* **** **** MAIN **** ****  */
+  .hero-1{
+    position: absolute;
+    width: 172px;
+    height: 16px;
+    left: 254px;
+    top: 285px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+
+     color: #0F0101;
+}
+
+.ice-cream{
+    width: 665px;
+    height: 130px;
+    left: 254px;
+    top: 307px;
+
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 120%;
+    color: #0F0101;
+    opacity: 0.9;
+}
+
+.hero-2{
+    width: 500px;
+    height: 75px;
+    left: 250px;
+    top: 460px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+}
+.now{
+     font-weight: 680;
+    font-size: 16px;
+    line-height: 22px;
+    width: 165px;
+    height: 50px;
+    left: 250px;
+    top: 600px;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 50px;
+    background: #b31f50;
+    border-radius: 5px;
+}
+.img{
+    width: 830px;
+    height: 700px;
+    left: 670        px;
+    top: 126px;
+}
+
+/* **** **** FOOTER **** ****  */

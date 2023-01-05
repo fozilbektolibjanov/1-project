@@ -1,0 +1,344 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.wrapper {
+
+    .navbar {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .menu {
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                padding: 0 20px;
+            }
+            select {
+                border: none;
+                outline: none;
+            }
+        }
+
+        i {
+            display: none;
+        }
+        
+    }
+
+    .main {
+        background: url(../img/masjid.jpg);
+        height: 600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .text {
+            width: 500px;
+            text-align: center;
+
+            h1 {
+                color: white;
+                font-size: 35px;
+
+                span {
+                    color: red;
+                }
+
+            }
+
+            .btn {
+                margin-top: 50px;
+                padding: 20px 40px;
+                font-size: 20px;
+                border: none;
+                cursor: pointer;
+                color: white;
+                background-color: red;
+            }
+        }
+    }
+
+    .About {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .first {
+            display: flex;
+        }
+
+        .box {
+            padding: 0 10px;
+            width: 400px;
+            font-size: 18px;
+            align-items: center;
+        }
+        
+
+
+    }
+
+    .cards {
+        align-items: center;
+        margin-top: 100px;
+        display: flex;
+
+        .first-card {
+            display: flex;
+
+            h1 {
+                position: relative;
+                color: red;
+            }
+
+            h1:after {
+                content: "";
+                position: absolute;
+                width: 100px;
+                border-bottom: 1px solid black;
+                top: 50%;
+                left: 100px;
+            }
+
+            .card {
+                padding: 10px;
+            }
+        }
+    }
+
+    .main-item {
+        margin: 50px 0;
+    }
+
+    .main-section {
+        margin-top: 100px;
+        display: flex;
+        gap: 20px;
+        border-bottom: 1px dashed black;
+        padding: 50px 0;
+
+        .text-part {
+            margin-top: 100px;
+            padding: 0 20px;
+        }
+        
+
+        .left-part {
+            display: flex;
+
+        }
+
+        .right-part {
+            display: flex;
+        }
+        
+    }
+
+    .links {
+        margin-top: 100px;
+        display: flex;
+        gap: 50px;
+
+        .main-links {
+
+            .links-part {
+                margin-top: 20px;
+                display: flex;
+            }
+        }
+    }
+
+    .footer {
+        margin: 0 auto;
+        max-width: 1200px;
+        display: flex;
+        padding: 100px 20px;
+
+        .footer-part {
+            margin: 0 30px;
+
+            .footer-links {
+                margin: 10px 0;
+
+                 a {
+                    text-decoration: none;
+                    color: black;
+                    font-size: 40px;
+        
+                }
+
+                i{
+                    margin: 0 10px;
+                }
+
+            }
+        }
+
+        .footer-numbers {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .navbar {
+        padding: 20px 15px !important;
+    }
+
+    .main-section {
+        margin: 0 10px;
+    }
+
+}
+
+@media (max-width:992px) {
+    .navbar {
+
+        .logo img {
+            width: 250px;
+        }
+
+    }
+
+    .main .text h1 {
+        font-size: 30px !important;
+    }
+
+    .About {
+        gap: 10px;
+        flex-direction: column;
+
+    }
+
+    .cards {
+        margin: 0 70px;
+        flex-direction: column;
+    }
+
+    .main-section {
+        margin: 0 50px;
+        flex-direction: column;
+
+    }
+
+    .links {
+        padding: 40px;
+        flex-direction: column;
+
+        .links-part {
+            align-items: center;
+        }
+    }
+
+    .footer {
+        flex-direction: column;        
+
+        .footer-numbers {
+            padding: 0 30px;
+        }
+
+    }
+}
+
+@media (max-width:576px) {
+    .navbar {
+        position: relative;
+
+            .menu {
+                display: none !important;
+                position: absolute;
+                display: flex;
+                flex-direction: column !important;
+                left: 0;
+                right: 0;
+                top: 60px;
+                align-items: center;
+                gap: 10px;
+            }
+            
+            i{
+                margin: 0 20px;
+                display: block !important;
+                cursor: pointer !important;
+            }
+
+            i:hover ~ .menu {
+                display: flex !important;
+            }
+        
+    }
+
+    .btn {
+        padding: 15px 35px !important;
+        font-size: 17px !important;
+    }
+
+
+        .first {
+            padding: 10px;
+            flex-direction: column;
+        }
+
+        .cards {
+
+            .first-card {
+                flex-direction: column;
+            }
+        }
+
+        .left-part {
+            margin: 0 30px;
+            flex-direction: column;
+        }
+
+        .right-part {
+            margin: 0 30px;
+            flex-direction: column;
+        }
+
+        .links {
+            padding: 0 20px;
+            align-items: center;
+
+            .img-part {
+                width: 100%;
+            }
+
+            .links-part {
+                display: flex;
+                flex-direction: column;
+
+                
+            }
+        }
+
+        .footer {
+
+            .footer-links {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .footer-links a i {
+                flex-direction: column !important;
+            }
+        }
+    
+}
+
+}

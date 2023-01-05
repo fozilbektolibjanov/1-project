@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+    .text{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+
+    }
+    .nom{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .desc{
+        margin: 0px;
+        padding: 10px;
+        
+    }
+
+
+
+
+
+
+
